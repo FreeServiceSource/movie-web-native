@@ -24,7 +24,7 @@ jobs:
             skip-tag:  'true'
             commit-message: 'chore: bump mobile version to {{version}} [skip ci]'
           env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
             
   build-android:
     runs-on: ubuntu-latest

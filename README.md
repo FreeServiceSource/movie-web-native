@@ -67,4 +67,4 @@ The generator sets up the `package.json`, `tsconfig.json` and a `index.ts`, as w
 
 ### References
 
-This app is based on [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) and [Turborepo](https://turborepo.org). 
+This app is based on [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) and [Turborepo](https://turborepo.org). test

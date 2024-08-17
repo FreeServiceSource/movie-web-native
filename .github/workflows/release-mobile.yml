@@ -138,6 +138,6 @@ jobs:
             movie-web.apk
             movie-web.ipa
           fail_on_unmatched_files: true
-          token: ${{ env.GITHUB_TOKEN }}
+          token: ${{ env.APP_GITHUB_TOKEN }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
